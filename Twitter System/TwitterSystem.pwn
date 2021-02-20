@@ -26,7 +26,7 @@ INGAT ! Copas emang mudah, tapi buat idenya yang sulit, jangan jadi orang bodoh.
     
 enum twInfo
 {
-	pUsername
+	pUsername[MAX_PLAYER_NAME]
 }
 new TwitterInfo[MAX_PLAYERS][twInfo];
 #if defined FILTERSCRIPT
